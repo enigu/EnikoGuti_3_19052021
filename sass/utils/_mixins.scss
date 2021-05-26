@@ -1,0 +1,13 @@
+$btn-shadow-size: .95rem;
+$box-shadow-colour: rgba(0,0,0,0.2);
+
+@mixin btn-simple-box-shadow ($colour:$box-shadow-colour) {
+    box-shadow: 0 0 $btn-shadow-size $colour; 
+}
+
+@mixin footer-list {
+    text-decoration: none;
+    list-style: none;
+    background-color: $colour-black;
+    color: $colour-white;    
+}
